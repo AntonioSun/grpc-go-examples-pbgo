@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	runtime "github.com/chai2010/pbgo-grpc/context"
+	runtime "grpc-go-examples-pbgo/context"
 	"google.golang.org/grpc/metadata"
 )
 

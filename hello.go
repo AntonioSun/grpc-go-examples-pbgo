@@ -16,8 +16,8 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	pbgo_grpc "github.com/chai2010/pbgo-grpc"
-	hello_pb "github.com/chai2010/pbgo-grpc/example/api"
+	pbgo_grpc "grpc-go-examples-pbgo"
+	hello_pb "grpc-go-examples-pbgo/example/api"
 )
 
 func Index(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {

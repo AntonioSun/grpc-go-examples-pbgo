@@ -74,7 +74,7 @@ service HelloService {
 Generate stub code:
 
 ```
-$ go install github.com/chai2010/pbgo-grpc/protoc-gen-pbgo-grpc
+$ go install grpc-go-examples-pbgo/protoc-gen-pbgo-grpc
 $ protoc -I=. -I=./api/third_party --pbgo-grpc_out=plugins=grpc+pbgo:. hello.proto
 ```
 
@@ -98,8 +98,8 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/reflection"
 
-	ctxpkg "github.com/chai2010/pbgo-grpc/context"
-	pb "github.com/chai2010/pbgo-grpc/example/api"
+	ctxpkg "grpc-go-examples-pbgo/context"
+	pb "grpc-go-examples-pbgo/example/api"
 )
 
 var (

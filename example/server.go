@@ -19,8 +19,8 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/reflection"
 
-	ctxpkg "github.com/chai2010/pbgo-grpc/context"
-	pb "github.com/chai2010/pbgo-grpc/example/api"
+	ctxpkg "grpc-go-examples-pbgo/context"
+	pb "grpc-go-examples-pbgo/example/api"
 )
 
 var (
